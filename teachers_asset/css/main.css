@@ -1,0 +1,206 @@
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+	
+}
+
+
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.headersection{
+	background:#f6f6f6;
+}
+.header img{
+	height:350px;
+}
+.text{
+	width:250px;
+	height:120px;
+	color:white;
+	margin-left:30px;
+	display:block;
+}
+.text h2{
+	font-size:20px;
+}
+.text p{
+	font-size:16px;
+}
+
+.navbar-default {
+ background:#5F5F5F;
+
+  border: medium none;
+
+}
+.navbar {
+  border-radius:0px;
+}
+.navbar-default .navbar-nav > li > a {
+  color:#5F5F5F;
+  font-size: 18px;
+  text-transform: capitalize;
+  font-family:Verdana;
+}
+.navbar-default .navbar-nav > li > a:hover {
+	
+	background:rgb(224,126,209);
+	
+	font-weight:bolder;
+}
+.well{
+	background:#E8E8FF;
+	border:none;
+	color:#000000;
+	font-family:tahoma;
+}
+
+.well a:hover{
+	text-decoration:none;
+	background:black;
+	
+}
+.form-control {
+    
+    width:50%;
+}  
+#sign{
+	   width:25% !important;
+	   background:#286090;
+	   color:white;
+	   border:none;
+}
+
+.list-group{
+	width:20%;
+}
+.H2_ele {
+	float:left;
+	padding-left:10px;
+}
+
+.H2_elem {
+	float:left;
+	padding-left:10px;
+}
+/*a.dropdown-toggle{
+	background:#C90C09;
+	border:none;
+	color:#3A3953;
+	font-family:tahoma;
+}*/
+.dropdown-menu{ 
+      
+    background-color:#C90C09;
+}
+.dropdown-menu>li>a{
+	color:white !important; 
+}
+.dropdown-menu>li>a:hover{
+	background-color:#E07ED1;
+	color:white;
+}
+.lg{
+	width:10% !important;
+	height:35px !important;
+	background:#286090;
+	color:white;
+	border:none;
+	font-size:17px;
+}
+#arrow{
+	
+	/*width:48px;
+	height:48px;
+	position:fixed;
+	margin-left:50px;*/
+
+	
+}
+.sitebar{
+	width:250px;
+	height:auto;
+	float:left;
+	background:white;
+}
+.sitebar ul{}
+.sitebar ul li{}
+.sitebar u li a{}
+.body {}
+.body h2{}
+.body ul{}
+.body ul li{}
+.body ul li a{}
+.imgs{
+	width:500px;
+	float:right;
+}
+.imgs img{
+	width:100px;
+	height:100px;
+}
